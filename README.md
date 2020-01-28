@@ -1,5 +1,5 @@
 # Albany-hub-analytics
-Code repository for Georgia Tech-ESRI Albany Hub Analytics and Visualization Project.
+Code repository for Georgia Tech-ESRI Albany Hub Analytics and Visualization Project.  
 This Python script will run the Policy and Program Evaluation of HUD funded properties and electric utilities use from 2004 to 2019.
 
 ## Matching_PanelOLS.ipynb
