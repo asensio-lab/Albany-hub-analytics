@@ -6,7 +6,7 @@ The code here takes data on treated and untreated units, houses in this case, an
 ### Matching
 The Python code in this section takes covoariates, such as house size in square footage, normalized electricity consumption (by square footage), property value, etc., and uses them to predict the propensity a house that did not receive HUD funding would be statistically similar to a house that did receive HUD funding.
 
-### Fixed Effect Panel Regression
+### Fixed Effects Panel Regression
 The Python code in this section evaluates the policy effects of HUD funding on the normalized electric utility consumption from 2004 to 2019. Standard errors are clustered to both the individual unit and time unit levels.
 
 ### Note
