@@ -1,9 +1,12 @@
 # Albany-hub-analytics
 Code repository for Georgia Tech-ESRI Albany Hub Analytics and Visualization Project.  
-This Python script will run the Policy and Program Evaluation of HUD funded properties and electric utilities use from 2004 to 2019.
+This Python script runs protocols for Policy and Program Evaluation of HUD funded properties and electric utilities city use from 2004 to 2019. This code has been packaged to run as a standalone script. 
+
+# Methodology for computation
+Participating properties are compared to a statistical reference group of non-participating properties using propensity score matching. A set of matching covariates is used to mitigate self-selection bias. Regression adjustment that includes time and location fixed effects are also considered. The unit of analysis for housing units is at the property level. 
 
 ## Matching_PanelOLS.ipynb
-The code here takes data on treated and untreated units, houses in this case, and performs propensity score matching on covariates that likely influence a unit's probability of being in the treated group. After matching and verifying adequate bias reduction, a fixed effects regression is performed to determine the average treatment effect (ATE) for the treated units compared to the matched control units.
+The code here processes data on treated and untreated units, such as individual houses, and performs propensity score matching on covariates known to influence a unit's conditional probability of being in the treated group. After matching and verifying adequate bias reduction, a fixed effects regression is performed to determine the average treatment effect (ATE) for the treated units compared to the matched control units. 
 
 ### Matching
 The Python code in this section takes covoariates, such as house size in square footage, normalized electricity consumption (by square footage), property value, etc., and uses them to predict the propensity a house that did not receive HUD funding would be statistically similar to a house that did receive HUD funding.
