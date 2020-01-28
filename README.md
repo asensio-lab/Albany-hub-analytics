@@ -1,5 +1,7 @@
 # Albany-hub-analytics
-Code repository for Georgia Tech-ESRI Albany Hub Analytics and Visualization Project
+Code repository for Georgia Tech-ESRI Albany Hub Analytics and Visualization Project.
+This Python script will run the Policy and Program Evaluation of HUD funded properties and electric utilities use from 2004 to 2019.
+
 ## Matching_PanelOLS.ipynb
 The code here takes data on treated and untreated units, houses in this case, and performs propensity score matching on covariates that likely influence a unit's probability of being in the treated group. After matching and verifying adequate bias reduction, a fixed effects regression is performed to determine the average treatment effect (ATE) for the treated units compared to the matched control units.
 
