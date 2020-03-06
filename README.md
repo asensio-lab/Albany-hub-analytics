@@ -1,6 +1,7 @@
 # Overview
-Code repository for Georgia Tech-ESRI Albany Hub Analytics and Visualization Project. This code consists of 2 parts. The first is a Python script that implements matching algorithms among HUD participants and non-participants for policy anlaysis and program evaluation of energy use in Albany, GA. The second part consists of 
+This is the code repository for Georgia Tech-ESRI Albany Hub Analytics and Visualization Project. This code consists of 2 parts. The first part is a Python script Jupyter notebook file (*.ipynb) that implements matching algorithms to compare energy use in Albany, GA among participants and non-participants in HUD-funded programs. The second part consists of an expanded version that includes ArcGIS interactive visuals intended for cities to interpret results with spatial information. In order to engage with the full interactive visuals, an active ArcGIS account is necessary to establish a connection to the server. Additional details are describe in the ESRI_JupyterNotebook.ipynb
 
+Below we describe the basic analysis without the interactive visualizations.
 
 # Albany-hub-analytics for policy evaluation 
 This Python script runs protocols for Policy and Program Evaluation of HUD funded properties and electric utilities city use from 2004 to 2019. This code has been packaged to run as a standalone script. Protocols have been validated in both Python (this version) and R.
